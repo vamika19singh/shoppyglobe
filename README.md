@@ -1,16 +1,74 @@
-# React + Vite
+#  ShoppyGlobe – E-commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a basic e-commerce web application built using **React with Vite**.  
+It allows users to browse products, view product details, manage a shopping cart, and place a dummy order.
 
-Currently, two official plugins are available:
+This project is developed as part of a React assignment and follows all the given requirements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To create a basic e-commerce application using React that demonstrates:
+- Component-based architecture
+- State management using Redux
+- Routing using `createBrowserRouter`
+- API data fetching using `useEffect`
+- Performance optimization and responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+
+- Product listing fetched from API
+- Product detail page with dynamic routing
+- Add to cart and remove from cart functionality
+- Quantity management using Redux
+- Product search using Redux state
+- Checkout page with dummy user form
+- Order placement confirmation and cart reset
+- 404 page for invalid routes
+- Lazy loading for components and images
+- Responsive UI for different screen sizes
+
+---
+
+##  Tech Stack
+
+- React (Vite)
+- Redux Toolkit
+- React Router DOM (`createBrowserRouter`)
+- JavaScript
+- HTML5
+- CSS3
+
+---
+
+##  API Used
+
+- https://dummyjson.com/products
+
+---
+
+##  Folder Structure
+
+src/
+├── app/
+├── components/
+├── hooks/
+├── redux/
+├── routes/
+├── styles/
+
+
+
+---
+
+##  Installation & Run
+
+
+npm install
+npm run dev
+
+##Github Repo
+https://github.com/vamika19singh/shoppyglobe
